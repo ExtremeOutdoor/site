@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #232322;
+}
+
+a {
+	color: darkblue;
+}
+
+a:visited {
+	color: darkblue;
+}
+
+a:hover, a:active {
+	color: darkblue;
+}
+
+.Height {
+	height: var(--height);
+}
+
+.FontSize {
+	font-size: var(--font_size);
+}
+
+.Width {
+	width: var(--width);
+}
+
+.Border {
+	border: var(--border) var(--border_type) var(--border_color);
+}
+
+.TextAlign {
+	text-align: var(--text_align);
+}
+
+.HorizontalPadding {
+	padding-left: var(--horizontal_padding);
+	padding-right: var(--horizontal_padding);
+}
+
+.LeftAndRightMargin {
+	margin-left: var(--left_and_right_margin);
+	margin-right: var(--left_and_right_margin);
+}
+
+.BorderExtra {
+	border-width: var(--border_width);
+	border-radius: var(--border_radius);
+}
+
+.Bordered {
+	border: 2px solid black;
+}
+
+.FontSize4REM {
+	font-size: 4rem;
+}
+
+.FontSize3REM {
+	font-size: 3rem;
+}
+
+.FontSize2REM {
+	font-size: 2rem;
+}
+
+.HorizontalPadding5Percent {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.HorizontalPadding10Percent {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.Width100Percent {
+	width: 100%;
+}
+
+.Width33Percent {
+	width: 33%;
+}
+
+.LeftAndRightMarginAuto {
+	margin-left: auto;
+	margin-right: auto;
+}
