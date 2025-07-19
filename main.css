@@ -20,6 +20,10 @@ a:hover, a:active {
 	color: darkblue;
 }
 
+.Display {
+	display: var(--display);
+}
+
 .Height {
 	height: var(--height);
 }
